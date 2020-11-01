@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:layout_margin="@dimen/standart_margin"
+        android:padding="@dimen/standart_padding"
+
+        android:gravity="center"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/registerNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/Name"
+            android:minWidth="200dp"
+            android:maxWidth="400dp"/>
+        <EditText
+            android:id="@+id/registerLastNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/LastName"
+            android:minWidth="200dp"
+            android:maxWidth="400dp"
+
+            android:layout_marginTop="@dimen/standart_margin"/>
+        <EditText
+            android:id="@+id/registerDateEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/Date"
+            android:minWidth="200dp"
+            android:maxWidth="400dp"
+            android:inputType="date"
+
+            android:layout_marginTop="@dimen/standart_margin"/>
+        <Spinner
+            android:id="@+id/registerWorkerEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:minWidth="200dp"
+            android:maxWidth="400dp"
+
+            android:layout_marginTop="@dimen/standart_margin"/>
+        <EditText
+            android:id="@+id/registerTelEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/Tel"
+            android:minWidth="200dp"
+            android:maxWidth="400dp"
+            android:inputType="phone"
+
+            android:layout_marginTop="@dimen/standart_margin"/>
+        <Spinner
+            android:id="@+id/registerEmployerEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:minWidth="200dp"
+            android:maxWidth="400dp"
+
+            android:layout_marginTop="@dimen/standart_margin"/>
+        <EditText
+            android:id="@+id/registerPassEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/password"
+            android:minWidth="200dp"
+            android:maxWidth="400dp"
+
+            android:layout_marginTop="@dimen/standart_margin"/>
+
+        <CheckBox
+            android:id="@+id/registerCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Сonsent"
+
+            android:layout_marginTop="@dimen/standart_margin"/>
+
+
+        <Button
+            android:id="@+id/RegisterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Register"
+            android:padding="@dimen/min_padding"
+
+            android:layout_margin="@dimen/standart_margin"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

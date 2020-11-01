@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LCT_Mobile</string>
+    <string name="auth_title">Войти</string>
+    <string name="register_title">Регистрация</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="show_pass">Показать пароль</string>
+    <string name="alert_title">Обнаружена угроза здоровью</string>
+    <string name="enter_pin">Введите ПИН-код</string>
+    <string name="polygonControl">Вы находитесь на этом строительном полигоне?</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+    <string name="Settings">Настройки</string>
+    <string name="Register">Зарегистрироваться</string>
+    <string name="Name">Имя</string>
+    <string name="LastName">Фамилия</string>
+    <string name="Date">Дата рождения</string>
+    <string name="Tel">Телефон</string>
+    <string name="Сonsent">Согласие на обработу персональных данных</string>
+</resources>

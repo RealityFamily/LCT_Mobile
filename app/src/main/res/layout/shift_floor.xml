@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="65dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Blue"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/imageView2"
+        android:layout_alignBottom="@id/imageView2"
+        android:layout_alignTop="@id/imageView2">
+        <ImageButton
+            android:id="@+id/shiftSettingsBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="14dp"
+            android:src="@drawable/ic_settings__3__1"/>
+        <ImageButton
+            android:id="@+id/shiftPositionBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/ic_frame_1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/shiftTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Blue"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+
+        tools:text="00:00"
+
+        android:gravity="center"
+
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/imageView2"
+        android:layout_alignBottom="@id/imageView2"
+        android:layout_alignTop="@id/imageView2"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/shift_floor" />
+</RelativeLayout>
